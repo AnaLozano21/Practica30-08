@@ -6,6 +6,50 @@
     <title>Practica</title>
 </head>
 <body>
-    
+    <h1>Tablas html</h1>
+    <!-- Tabla simple -->
+    <table border="3">
+        <tr>
+            <th>ID</th>
+            <th>CARRERA</th>
+
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>LTI</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>LAN</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>CP</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- Tabla con row y colspan -->
+    <table border="3">
+        <tr>
+            <th>Horario</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>7:00am - 8:00am</td>
+            <td rowspan="2">Natación</td>
+            <td>Programacion</td>
+            <td colspan="3">nada ajaj</td>
+
+        </tr>
+        <tr>
+            <td>8:00am - 9:00am</td>
+            <td>Web</td>
+            <td colspan='3'> ajaj</td>
+        </tr>
+    </table>
 </body>
 </html>
